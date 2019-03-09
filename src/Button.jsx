@@ -1,6 +1,6 @@
 import React from 'react';
-
-export default class Button extends React.Component {
+import { polyfill } from 'react-lifecycles-compat'
+class Button extends React.Component {
 	constructor(props) {
 		super(props)
 	}
@@ -11,3 +11,5 @@ export default class Button extends React.Component {
 		)
 	}
 }
+polyfill(Button)
+export default Button

@@ -41,8 +41,10 @@
   },
   "homepage": "https://github.com/tongchuan/react-components-ui#readme",
   "dependencies": {
+    "mini-store": "^2.0.0",
     "rc-tools": "^9.3.11",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-lifecycles-compat": "^3.0.4"
   }
 }
