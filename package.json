@@ -1,0 +1,48 @@
+{
+  "name": "react-components-ui",
+  "version": "1.0.0",
+  "description": "react components react-components-ui",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "files": [
+    "assets/*.css",
+    "assets/*.png",
+    "assets/*.gif",
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "version4444": "npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]",
+    "build": "rc-tools run build",
+    "pub": "rc-tools run pub",
+    "storybook": "rc-tools run storybook-build",
+    "compile": "rc-tools run compile --babel-runtime",
+    "start": "rc-tools run start",
+    "gh-pages": "npm run build && rc-tools run gh-pages",
+    "pre-commit": "rc-tools run pre-commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongchuan/react-components-ui.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "react-components-ui"
+  ],
+  "author": {
+    "name": "zhangtongchuan",
+    "emial": "tongchuanxing@163.com",
+    "url": "https://github.com/tongchuan"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tongchuan/react-components-ui/issues"
+  },
+  "homepage": "https://github.com/tongchuan/react-components-ui#readme",
+  "dependencies": {
+    "rc-tools": "^9.3.11",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
