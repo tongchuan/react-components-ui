@@ -272,13 +272,13 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
     <div class="highlight"><pre><code language="js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">'react-dom'</span>;
 <span class="hljs-keyword">import</span> {Button} <span class="hljs-keyword">from</span> <span class="hljs-string">'../src/Index'</span>
-class Demo extends React.Component {
+export default class Demo extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Button</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">Button</span>&gt;</span>;</span>
+    <span class="hljs-keyword">return</span> (<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Button</span> /&gt;</span>)</span>;
   }
 }
 
