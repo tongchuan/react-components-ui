@@ -11,13 +11,23 @@
     "es",
     "lib"
   ],
+  "config": {
+    "port": 8000,
+    "entry": {
+      "react-components-ui": [
+        "./assets/index.less",
+        "./src/index.jsx"
+      ]
+    }
+  },
   "scripts": {
     "version4444": "npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]",
     "build": "rc-tools run build",
     "pub": "rc-tools run pub",
     "storybook": "rc-tools run storybook-build",
     "compile": "rc-tools run compile --babel-runtime",
-    "start": "rc-tools run start",
+    "start": "rc-tools run storybook",
+    "dev": "rc-tools run storybook",
     "gh-pages": "npm run build && rc-tools run gh-pages",
     "pre-commit": "rc-tools run pre-commit"
   },
@@ -41,6 +51,7 @@
   },
   "homepage": "https://github.com/tongchuan/react-components-ui#readme",
   "dependencies": {
+    "eslint": "^5.15.1",
     "mini-store": "^2.0.0",
     "rc-tools": "^9.3.11",
     "react": "^16.8.4",

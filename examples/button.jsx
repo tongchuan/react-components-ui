@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Button} from '../src/Index'
-class Demo extends React.Component {
+export default class Demo extends React.Component {
   constructor(props) {
     super(props);
   }
