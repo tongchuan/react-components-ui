@@ -19,5 +19,9 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "eslint constructor-super": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "indent": ["error", 2]
     }
 };
